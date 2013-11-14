@@ -1,0 +1,86 @@
+*:focus {outline: none;}
+body {
+    background: url('img/back.png');
+    font-family: 'Jura', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.header {
+
+    background: #4a0069;
+    border: 1px solid black;
+    width: 100%;
+    height: 250px;
+}
+.first-col, .second-col {
+    height: 250px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 480px;
+    position: relative;
+}
+.second-col {
+    padding-top: 15px;
+}
+.wrapper {
+    background: url('img/back.png');
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    width: 1000px;
+    height: 100%;
+}
+
+.links {
+    margin: 20px auto 20px auto;
+    background: skyblue;
+    width: 100%;
+    height: 40px;
+}
+
+.disco {
+    width: 500px;
+}
+
+.mega:focus {
+    outline:none;
+}
+
+.blog_post {
+    margin-top: 20px;
+    padding: 10px;
+    display: block;
+    width: 600px;
+    height: 500px;
+    background: white;
+}
+.blog_post img {
+    margin-top: 10px;
+    width: 500px;
+}
+
+.library {
+    width: 625px;
+}
+.special {
+    margin-top: 10px;
+    padding: 10px;
+    background: white;
+}
+
+.special p {
+    padding: 10px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
