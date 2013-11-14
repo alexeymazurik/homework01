@@ -20,7 +20,9 @@ h1.styled.mega {
     text-transform: uppercase;
     text-align: center;
 }
-
+a{
+    text-decoration: none;
+}
 /*Styling select using radio button*/
 .select {
     font-size: 15px;
@@ -371,16 +373,16 @@ button.submit:active {
 }
 
 input:required, textarea:required {
-    background: #fff url(img/red_asterisk.png) no-repeat 98% center;
+    background: #fff url(../img/red_asterisk.png) no-repeat 98% center;
 }
 .contact_form input:focus:invalid, .contact_form textarea:focus:invalid { /* when a field is considered invalid by the browser */
-    background: #fff url(img/invalid.png) no-repeat 98% center;
+    background: #fff url(../img/invalid.png) no-repeat 98% center;
     box-shadow: 0 0 5px #d45252;
     border-color: #b03535
 }
 
 .contact_form input:required:valid, .contact_form textarea:required:valid { /* when a field is considered valid by the browser */
-    background: #fff url(img/valid.png) no-repeat 98% center;
+    background: #fff url(../img/valid.png) no-repeat 98% center;
     box-shadow: 0 0 5px #5cd053;
     border-color: #28921f;
 }

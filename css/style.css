@@ -1,6 +1,6 @@
 *:focus {outline: none;}
 body {
-    background: url('img/back.png');
+    background: url('../img/back.png');
     font-family: 'Jura', sans-serif;
     margin: 0;
     padding: 0;
@@ -25,7 +25,7 @@ body {
     padding-top: 15px;
 }
 .wrapper {
-    background: url('img/back.png');
+    background: url('../img/back.png');
     margin: 0 auto 0 auto;
     padding: 10px;
     width: 1000px;
@@ -52,12 +52,12 @@ body {
     padding: 10px;
     display: block;
     width: 600px;
-    height: 500px;
+    height: 100%;
     background: white;
 }
 .blog_post img {
+    display: block;
     margin-top: 10px;
-    width: 500px;
 }
 
 .library {
@@ -75,6 +75,13 @@ body {
     text-align: justify;
 }
 
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    background: #70009f;
+    border: 1px black solid;
+}
 
 
 
