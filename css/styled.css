@@ -24,92 +24,87 @@ a{
     text-decoration: none;
 }
 /*Styling select using radio button*/
-.select {
-    font-size: 15px;
-    height: 30px;
-    line-height: 30px;
-    width: 200px;
-    position:relative;
-}
+/*.select {*/
+    /*font-size: 15px;*/
+    /*height: 30px;*/
+    /*line-height: 30px;*/
+    /*width: 200px;*/
+    /*position:relative;*/
+/*}*/
 
-.select,.select div {
-    border-bottom:1px solid #ccc;
-    background: #f5f5f5;
-    color: #bbb;
-}
+/*.select,.select div {*/
+    /*border-bottom:1px solid #ccc;*/
+    /*background: #f5f5f5;*/
+    /*color: #bbb;*/
+/*}*/
 
-.select div {
-    width: 100%;
-    border-width: 0;
-}
+/*.select div {*/
+    /*width: 100%;*/
+    /*border-width: 0;*/
+/*}*/
 
-.select:hover div {
-    border-width: 1px;
-    position: absolute;
-    z-index: 4;
-    top: 30px;
-}
+/*.select:hover div {*/
+    /*border-width: 1px;*/
+    /*position: absolute;*/
+    /*z-index: 4;*/
+    /*top: 30px;*/
+/*}*/
 
 /* Arrow */
-.select:after {
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 6px solid #bbb;
-    content: '';
-    height: 0;
-    position: absolute;
-    right: 10px;
-    top: 12px;
-    width: 0;
-    z-index: 3;
-}
-.select label {
-    height: 0;
-    display: block;
-    padding: 0 10px;
-    word-wrap: normal;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-}
-.select input {
-    max-height: 0;
-    max-width: 0;
-    opacity: 0;
-    cursor: pointer;
-    position: absolute;
-    z-index: 2;
-}
-.select input:checked + label { height: 30px; }
-.select:hover input {
-    min-height: 30px;
-    min-width: 100%;
-    height: 30px;
-    width: 100%;
-}
-.select:hover label {
-    height: 30px;
-    line-height: 30px;
-    -webkit-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
-}
-.select:hover:after {
-    border-top-color: #0f87e4;
-}
-.select input:hover + label,
-.select:hover input:checked + label {
-    color: #0f87e4;
-}
-.select input:hover + label {
-    background-color: #dbecf8;
-}
+/*.select:after {*/
+    /*border-left: 5px solid transparent;*/
+    /*border-right: 5px solid transparent;*/
+    /*border-top: 6px solid #bbb;*/
+    /*content: '';*/
+    /*height: 0;*/
+    /*position: absolute;*/
+    /*right: 10px;*/
+    /*top: 12px;*/
+    /*width: 0;*/
+    /*z-index: 3;*/
+/*}*/
+/*.select label {*/
+    /*height: 0;*/
+    /*display: block;*/
+    /*padding: 0 10px;*/
+    /*word-wrap: normal;*/
+    /*white-space: nowrap;*/
+    /*text-overflow: ellipsis;*/
+    /*overflow: hidden;*/
+/*}*/
+/*.select input {*/
+    /*max-height: 0;*/
+    /*max-width: 0;*/
+    /*opacity: 0;*/
+    /*cursor: pointer;*/
+    /*position: absolute;*/
+    /*z-index: 2;*/
+/*}*/
+/*.select input:checked + label { height: 30px; }*/
+/*.select:hover input {*/
+    /*min-height: 30px;*/
+    /*min-width: 100%;*/
+    /*height: 30px;*/
+    /*width: 100%;*/
+/*}*/
+/*.select:hover label {*/
+    /*height: 30px;*/
+    /*line-height: 30px;*/
+    /*-webkit-transition: .25s ease-in-out;*/
+    /*transition: .25s ease-in-out;*/
+/*}*/
+/*.select:hover:after {*/
+    /*border-top-color: #0f87e4;*/
+/*}*/
+/*.select input:hover + label,*/
+/*.select:hover input:checked + label {*/
+    /*color: #0f87e4;*/
+/*}*/
+/*.select input:hover + label {*/
+    /*background-color: #dbecf8;*/
+/*}*/
 
-.text_styled {
-    border-radius:5px;
-    background:yellow;
-    height: 30px;
-    width: 300px;
-}
+
 
 /*Stylising button*/
 .button_styled {
@@ -194,7 +189,7 @@ a{
 }
 
 /*Stylising select*/
-select.select_styled {
+.select_styled {
     box-radius:0;
     width: 300px;
     background: linear-gradient(to top,white, #dedede);
